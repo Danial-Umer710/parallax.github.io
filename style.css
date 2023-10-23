@@ -1,0 +1,98 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+  font-family: 'Lucida Sans' ;
+  color: black;
+}
+
+.pimg1,.pimg2,.pimg3{
+  background-image: url(image1.png);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg2{
+  background-image: url(image2.png);
+  min-height: 400px;}
+
+  .pimg3{
+    background-image: url(image3.png);
+    min-height: 400px;}
+
+.pimg2{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.textbg{
+  background-color: grey;
+  color: white;
+  padding: 20px;
+}
+
+.section{
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.section-light{
+  background-color: beige;
+  color: black;
+}
+
+.ptext2{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.section-dark{
+  background-color: beige;
+  color: black;}
+
+.textbg2{
+  background-color: #666;
+  color: white;
+  padding: 20px;
+}
+
+.ptext3{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.textbg3{
+  background-color: #666;
+  color: white;
+  padding: 20px;
+}
